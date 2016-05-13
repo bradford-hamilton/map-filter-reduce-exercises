@@ -1,13 +1,19 @@
 function multiplyBy10 (array) {
- // your code here
+  return array.map(function(arrayItem) {
+    return arrayItem * 10;
+  });
 };
 
 function shiftRight (array) {
- // your code here
+  return array.map(function(value, index, array) {
+    return array[index - 1] || array[array.length - 1];
+  });
 };
 
 function onlyVowels (array) {
- // your code here
+  return array.map(function(arrayItem) {
+    newArr = arrayItem.split('');
+  }
 };
 
 function doubleMatrix (array) {
